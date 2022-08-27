@@ -43,7 +43,7 @@ set CYGWIN_ARCH=auto
 set CYGWIN_USERNAME=root
 
 :: select the packages to be installed automatically via apt-cyg
-set CYGWIN_PACKAGES=bash-completion,bzip,coreutils,curl,dos2unix,expect,git,grep,gawk,gcc-core,gcc-g++,inetutils,openssh,openssl,perl,python3,python3-devel,recode,rsync,screen,sed,unzip,vim,zip
+set CYGWIN_PACKAGES=bash-completion,bzip2,coreutils,curl,dos2unix,expect,git,grep,gawk,gcc-core,gcc-g++,inetutils,openssh,openssl,perl,python3,python3-devel,recode,rsync,screen,sed,unzip,vim,zip
 
 :: if set to 'yes' the local package cache created by cygwin setup will be deleted after installation/update
 set DELETE_CYGWIN_PACKAGE_CACHE=no
@@ -87,8 +87,8 @@ set "CYGWIN_PATH=%%SystemRoot%%\system32;%%SystemRoot%%"
 
 :: set Mintty options, see https://cdn.rawgit.com/mintty/mintty/master/docs/mintty.1.html#CONFIGURATION
 set MINTTY_OPTIONS=--Title Terminal ^
-  -o Columns=160 ^
-  -o Rows=50 ^
+  -o Columns=100 ^
+  -o Rows=35 ^
   -o BellType=0 ^
   -o ClicksPlaceCursor=yes ^
   -o CursorBlinks=yes ^
@@ -99,7 +99,7 @@ set MINTTY_OPTIONS=--Title Terminal ^
   -o CopyOnSelect=yes ^
   -o RightClickAction=Menu ^
   -o Font="Courier New" ^
-  -o FontHeight=10 ^
+  -o FontHeight=12 ^
   -o FontWeight=700 ^
   -o FontSmoothing=None ^
   -o ScrollbackLines=10000 ^
