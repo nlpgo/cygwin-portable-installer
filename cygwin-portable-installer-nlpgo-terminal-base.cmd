@@ -74,7 +74,7 @@ set INSTALL_TESTSSL_SH=no
 set TESTSSL_GIT_BRANCH=3.0
 
 :: use ConEmu based tabbed terminal instead of Mintty based single window terminal, see https://conemu.github.io/
-set INSTALL_CONEMU=yes
+set INSTALL_CONEMU=no
 set CON_EMU_OPTIONS=-Title cygwin-portable ^
  -QuitOnClose
 
